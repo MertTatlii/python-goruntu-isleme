@@ -18,7 +18,7 @@ for column in range(len(data.columns)):
     mappings_dict = {index: label for index, label in enumerate(encoder.classes_)}
     mappings.append(mappings_dict)
 
-y = data['class']
+y = data['class'] #asdklsadkjlsdkfjkldfkdfgfıtı fıtı
 X = data.drop('class', axis=1)
 print(X)
 scaler = StandardScaler()
